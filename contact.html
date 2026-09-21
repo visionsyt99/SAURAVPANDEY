@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en" class="theme-ink" data-theme="ink">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact Saurav Pandey — Collaborate & Connect</title>
+<meta name="description" content="Get in touch with Saurav Pandey — founder of Vision_S, creative technologist and student leader based in Kathmandu, Nepal.">
+<meta name="author" content="Saurav Pandey">
+<meta name="theme-color" content="#111118">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Contact Saurav Pandey — Collaborate & Connect">
+<meta property="og:description" content="Get in touch — open to collaborations, creative projects and student initiatives.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="preloader" id="preloader">
+  <div class="preloader-inner">
+    <span class="preloader-mark">✳</span>
+    <p class="mono-label preloader-word">SAURAV<span style="color:var(--gold)">.</span></p>
+    <div class="preloader-bar"><span id="preloaderFill"></span></div>
+    <p class="preloader-pct" id="preloaderPct">0%</p>
+  </div>
+</div>
+
+<div class="atmos">
+  <div class="grid-bg"></div>
+  <div class="aurora-blob aurora-1"></div>
+  <div class="aurora-blob aurora-2"></div>
+  <div class="aurora-blob aurora-3"></div>
+  <div class="spotlight" id="spotlight"></div>
+  <div class="noise-layer"></div>
+</div>
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<div class="nav-wrap"><nav class="nav" id="siteNav">
+  <a class="brand-block" href="index.html"><span class="brand-icon">✳</span><span class="brand-text"><span class="display brand-name">SAURAV<span style="color:var(--gold)">.</span></span><span class="mono-label brand-sub">Founder · Vision_S</span></span></a>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="work.html">Work</a>
+    <a href="vision-s.html">Vision_S</a>
+    <a href="leadership.html">Leadership</a>
+    <a class="active" href="contact.html">Contact</a>
+  </div>
+  <button class="theme-btn" id="themeBtn" aria-label="Switch theme">
+    <svg class="icon-sun" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><line x1="12" y1="2" x2="12" y2="4"></line><line x1="12" y1="20" x2="12" y2="22"></line><line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line><line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line><line x1="2" y1="12" x2="4" y2="12"></line><line x1="20" y1="12" x2="22" y2="12"></line><line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line><line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line></svg>
+    <svg class="icon-moon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+  </button>
+  <button class="burger" id="burger" aria-label="Toggle menu">☰</button>
+</nav></div>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a class="display" href="index.html">Home</a>
+  <a class="display" href="about.html">About</a>
+  <a class="display" href="work.html">Work</a>
+  <a class="display" href="vision-s.html">Vision_S</a>
+  <a class="display" href="leadership.html">Leadership</a>
+  <a class="display" href="contact.html">Contact</a>
+  <p class="mono-label">Kathmandu, Nepal</p>
+</div>
+
+<main>
+
+<section class="page-hero" data-dot="Top">
+  <div class="grid-bg" style="opacity:.6"></div>
+  <div class="page-hero-glow" style="left:50%;bottom:-80px;transform:translateX(-50%);background:var(--accent)"></div>
+  <div class="container" style="position:relative">
+    <p class="mono-label reveal in" style="color:var(--primary)">Contact</p>
+    <h1 class="display reveal in">Say <span class="outline-text">hello</span></h1>
+    <p class="reveal in">Open to collaborations, creative projects, student initiatives and anything that doesn't fit an existing category. Based in Kathmandu, Nepal.</p>
+    <a class="btn primary reveal in" style="margin-top:38px" href="mailto:vsauravpandey99@gmail.com">vsauravpandey99@gmail.com →</a>
+  </div>
+</section>
+
+<section class="section" data-dot="Message">
+  <div class="container" style="max-width:800px">
+    <div class="sec-head reveal"><div class="row"><span class="idx">01</span><h2 class="display">Send a <span class="outline-text">message</span></h2></div></div>
+    <form id="contactForm" class="card card-pad-lg gilded reveal" novalidate>
+      <div class="grid grid-2" style="gap:20px">
+        <div><label for="cName">Your name</label><input id="cName" name="name" type="text" placeholder="Saurav's next collaborator" required></div>
+        <div><label for="cEmail">Your email</label><input id="cEmail" name="email" type="email" placeholder="you@domain.com" required></div>
+      </div>
+      <div style="margin-top:24px">
+        <label>What is this about?</label>
+        <div class="subject-pills" id="subjectPills" role="radiogroup" aria-label="What is this about?">
+          <button type="button" class="subject-pill active" data-value="Collaboration" role="radio" aria-checked="true">Collaboration</button>
+          <button type="button" class="subject-pill" data-value="Project idea" role="radio" aria-checked="false">Project idea</button>
+          <button type="button" class="subject-pill" data-value="Speaking / Event" role="radio" aria-checked="false">Speaking / Event</button>
+          <button type="button" class="subject-pill" data-value="Just saying hi" role="radio" aria-checked="false">Just saying hi</button>
+        </div>
+      </div>
+      <div style="margin-top:24px">
+        <label for="cMessage">Message</label>
+        <textarea id="cMessage" name="message" rows="6" placeholder="Tell me what you're building, or what you'd like to build together…" required></textarea>
+      </div>
+      <div style="margin-top:26px;display:flex;flex-wrap:wrap;gap:14px;align-items:center">
+        <button type="submit" class="btn primary btn-icon">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+          Send message
+        </button>
+        <button type="button" id="copyEmailBtn" class="btn btn-icon">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+          Copy email
+        </button>
+        <span id="copyFeedback" class="mono-label" style="opacity:0;transition:opacity .3s;color:var(--primary)">Copied!</span>
+      </div>
+      <p class="muted" style="margin-top:18px;font-size:14px">Sends straight to vsauravpandey99@gmail.com</p>
+    </form>
+  </div>
+</section>
+
+<section class="section" data-dot="Presence">
+  <div class="container">
+    <div class="sec-head reveal"><div class="row"><span class="idx">02</span><h2 class="display">Digital <span class="outline-text">presence</span></h2></div></div>
+    <div class="grid grid-3 dp-grid" style="gap:1px;background:var(--border);border:1px solid var(--border);border-radius:20px;overflow:hidden">
+      <a class="reveal dp-link" href="mailto:vsauravpandey99@gmail.com">
+        <span><span class="mono-label">Email</span><span class="dp-value">vsauravpandey99@gmail.com</span></span>
+        <span class="dp-arrow">↗</span>
+      </a>
+      <a class="reveal dp-link" href="https://www.linkedin.com/in/saurav-pandey999" target="_blank" rel="noreferrer">
+        <span><span class="mono-label">LinkedIn</span><span class="dp-value">saurav-pandey999</span></span>
+        <span class="dp-arrow">↗</span>
+      </a>
+      <a class="reveal dp-link" href="https://saurav-pandey999.github.io/worldofvisions/" target="_blank" rel="noreferrer">
+        <span><span class="mono-label">Vision_S</span><span class="dp-value">World of Vision_S</span></span>
+        <span class="dp-arrow">↗</span>
+      </a>
+      <a class="reveal dp-link" href="https://visionsyt99.github.io/SAURAVPANDEY-AURA/AURA2.HTML" target="_blank" rel="noreferrer">
+        <span><span class="mono-label">AURA V.2</span><span class="dp-value">Study companion</span></span>
+        <span class="dp-arrow">↗</span>
+      </a>
+      <a class="reveal dp-link" href="https://saurav-pandey999.github.io/worldofvisions/cee.html" target="_blank" rel="noreferrer">
+        <span><span class="mono-label">CEE Simulator</span><span class="dp-value">Entrance practice engine</span></span>
+        <span class="dp-arrow">↗</span>
+      </a>
+      <a class="reveal dp-link" href="https://www.youtube.com/@VISIONS-9" target="_blank" rel="noreferrer">
+        <span><span class="mono-label">YouTube</span><span class="dp-value">@VISIONS-9</span></span>
+        <span class="dp-arrow">↗</span>
+      </a>
+      <a class="reveal dp-link" href="https://saurav-pandey999.github.io/worldofvisions/profile.html" target="_blank" rel="noreferrer">
+        <span><span class="mono-label">Portfolio</span><span class="dp-value">Legacy profile</span></span>
+        <span class="dp-arrow">↗</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section" data-dot="Quote">
+  <div class="container quote-block reveal">
+    <p class="display">Building Beyond Boundaries. Creating Beyond Imagination.</p>
+    <p class="mono-label" style="margin-top:22px">Student · Founder · Creative Technologist · Leader</p>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <p class="display foot-tag reveal"><span class="gold-text">Let's build something</span> <span class="outline-text">unbeatable</span></p>
+    <div class="foot-grid">
+      <div>
+        <p class="mono-label">Elsewhere</p>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/saurav-pandey999" target="_blank" rel="noreferrer">LinkedIn</a></li>
+          <li><a href="https://saurav-pandey999.github.io/worldofvisions/" target="_blank" rel="noreferrer">Vision_S</a></li>
+          <li><a href="https://visionsyt99.github.io/SAURAVPANDEY-AURA/AURA2.HTML" target="_blank" rel="noreferrer">AURA V.2</a></li>
+          <li><a href="https://www.youtube.com/@VISIONS-9" target="_blank" rel="noreferrer">YouTube</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="mono-label">Pages</p>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="vision-s.html">Vision_S</a></li>
+          <li><a href="leadership.html">Leadership</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="mono-label">Contact</p>
+        <p style="margin-top:12px"><a href="mailto:vsauravpandey99@gmail.com">vsauravpandey99@gmail.com</a></p>
+        <p style="margin-top:8px">Kathmandu, Nepal</p>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <p class="mono-label">© <span id="yr"></span> Saurav Pandey</p>
+      <p class="mono-label">Building beyond boundaries</p>
+    </div>
+  </div>
+</footer>
+
+<script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+<script src="script.js"></script>
+</body>
+</html>
